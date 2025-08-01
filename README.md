@@ -17,6 +17,11 @@ Or with timestamps:
 
 `uv run transcribe_podcast.py "41 Harsh Truths for People Who Actually Want to Change - Alex Hormozi (4K) [ky1oHHJ5Ne8].mp3" --output 41.txt --timestamps`
 
+More options:
+- `--output` or `-o`: Output transcript file path (optional)
+- `--speakers` or `-s`: Number of speakers (default: 2, optional)
+- `--timestamps` or `-t`: Include timestamps in output
+
 Then, postprocess the transcript, if you want:
 
 ```
