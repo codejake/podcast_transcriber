@@ -30,8 +30,6 @@ sed -i '' 's/SPEAKER_00/Host/g' $1
 sed -i '' 's/SPEAKER_01/Guest/g' $1
 ```
 
-## Options
-
 ## Downloading A YouTube Video As Audio With `yt-dlp`
 
 `yt-dlp -x --audio-format mp3 -o "audio/%(title)s.%(ext)s" "https://www.youtube.com/watch?v=VIDEO_ID"`
