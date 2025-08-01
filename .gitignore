@@ -22,3 +22,6 @@ transcripts/
 
 # No segments data
 *.json
+
+# No AI Output
+ai-output/
