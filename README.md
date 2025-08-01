@@ -32,11 +32,13 @@ sed -i '' 's/SPEAKER_01/Guest/g' $1
 
 ## Downloading A YouTube Video As Audio With `yt-dlp`
 
-On macOS: `brew install yt-dlp`
-
-On Linux: Install the `yt-dlp` with your distribution's package manager.
-
-On Windows: I don't know if this will even work. If you get it to work, let me 
-know and I will update this documentation!
-
 `yt-dlp -x --audio-format mp3 -o "audio/%(title)s.%(ext)s" "https://www.youtube.com/watch?v=VIDEO_ID"`
+
+### Getting `yt-dlp`:
+
+- **macOS**: `brew install yt-dlp`
+
+- **Linux**: Install the `yt-dlp` with your distribution's package manager.
+
+- **Windows**: I don't use Windows. If you get it to work, let me 
+know and I will update this documentation!
