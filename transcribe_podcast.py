@@ -1,11 +1,8 @@
-import numpy as np
 from faster_whisper import WhisperModel
 import json
 import argparse
 import os
 import sys
-import wave
-import struct
 
 
 def simple_speaker_detection(segments, n_speakers=2):
