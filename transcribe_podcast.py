@@ -154,7 +154,11 @@ def main():
     else:
         output_file = f"{base_name}_transcript.txt"
 
-    json_file = f"{base_name}_segments.json"
+    # Create segments directory if it doesn't exist
+    segments_dir = "segments"
+    os.makedirs(segments_dir, exist_ok=True)
+    
+    json_file = os.path.join(segments_dir, f"{base_name}_segments.json")
 
     print(f"Processing {args.audio_file}...")
     print(f"Detecting {args.speakers} speakers...")
