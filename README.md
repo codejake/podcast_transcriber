@@ -1,5 +1,9 @@
 # podcast_transcriber
 
+A Python script that aims to accurately transcribe my favorite podcast episodes.
+
+It uses [faster-whisper](https://github.com/SYSTRAN/faster-whisper).
+
 ## Getting Started
 
 1. Clone this repo.
